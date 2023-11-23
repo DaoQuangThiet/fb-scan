@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 14px;
+}
+
+html,
+body {
+  width: 530px !important;
+  height: auto !important;
+  background-color: #fbfbfb !important;
+}
+
+#app-container {
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (max-width: 480px) {
+  .Toastify__toast-container {
+    width: 80vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    left: 80px !important;
+  }
+}
+
+.Toastify__toast-container--top-right {
+  right: 0px !important;
+}

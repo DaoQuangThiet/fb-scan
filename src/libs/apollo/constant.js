@@ -1,0 +1,3 @@
+export const SESSION_ID = '%KIKI_SESSION_ID%';
+export const PROFILE_ID = '%KIKI_PROFILE_ID%';
+export const KIKI_SERVER_API_ENDPOINT = '%KIKI_API_ENDPOINT%';
